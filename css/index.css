@@ -1,0 +1,285 @@
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+a,
+img {
+  border: 0;
+}
+.section-one {
+  width: 100%;
+  background-color: #22B573;
+  position: relative;
+}
+.section-one-title {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  transition: top 0.3s ease-in;
+}
+.section-one-title p {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: "Microsoft YaHei";
+}
+.section-one-button {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.section-one-button a {
+  display: block;
+  height: 18px;
+  width: 32px;
+  background: url(../img/down.png) no-repeat center;
+  margin: 0 auto;
+}
+.section-two {
+  width: 100%;
+  background-color: #1889C5;
+}
+.section-two-pic {
+  width: 1140px;
+  height: 470px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 1000;
+}
+.section-two-pic-img1 {
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  background: url(../img/2.jpg) -110px 0px no-repeat;
+  position: absolute;
+  top: 100px;
+  left: 435px;
+  z-index: 2;
+  transform: rotate3d(0, 1, 0, -180deg);
+  transition: transform 1s ;
+  backface-visibility: hidden;
+}
+.section-two-pic-img2 {
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  background: url(../img/3.jpg) no-repeat center;
+  position: absolute;
+  top: 100px;
+  left: 435px;
+  z-index: 1;
+  transition: transform 1s ;
+  backface-visibility: hidden;
+}
+.section-two-intro {
+  width: 1140px;
+  margin: 0 auto;
+  height: 400px;
+}
+.section-two-intro-left {
+  float: left;
+  font-family: "Microsoft YaHei";
+}
+.section-two-intro-left ul {
+  font-size: 20px;
+  color: white;
+}
+.section-two-intro-left ul li {
+  position: relative;
+  right: 120px;
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+.section-two-intro-left ul li span {
+  text-align: right;
+  width: 200px;
+  display: inline-block;
+}
+.section-two-intro-left ul li a {
+  margin: 0 10px;
+}
+.section-two-intro-right {
+  float: right;
+  font-family: "Microsoft YaHei";
+  font-size: 18px;
+  color: white;
+  width: 600px;
+}
+.img-back {
+  z-index: 2;
+  transform: rotate3d(0, 1, 0, -180deg);
+}
+.img-front {
+  z-index: 1;
+  transform: rotate3d(0, 1, 0, 0deg);
+}
+.section-three {
+  font-family: "Microsoft YaHei";
+  background-color: #9C58B6;
+  color: white;
+  width: 100%;
+  padding: 100px 0;
+}
+.section-three-title {
+  font-size: 30px;
+  text-align: center;
+}
+.section-three-content {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1500px;
+}
+.section-three-content ul {
+  display: inline-block;
+  border: 1px white solid;
+  margin-left: 60px;
+  vertical-align: text-top;
+}
+.section-three-content ul:first-child {
+  margin-left: 130px;
+}
+.section-three-content ul li {
+  display: block;
+  width: 200px;
+  height: 62px;
+  font-size: 22px;
+  line-height: 62px;
+  text-align: center;
+}
+.section-three-content ul li:first-child {
+  background-color: white;
+  color: black;
+}
+.section-three-content ul li:hover {
+  color: black;
+  background-color: white;
+}
+.section-four {
+  font-family: "Microsoft YaHei";
+  background-color: #9C58B6;
+  color: white;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #26B1B6;
+}
+.section-four-title {
+  font-size: 30px;
+  text-align: center;
+}
+.section-four-content {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1500px;
+}
+.section-four-content ul {
+  display: inline-block;
+  border: 1px white solid;
+  margin-left: 60px;
+  vertical-align: text-top;
+}
+.section-four-content ul:first-child {
+  margin-left: 130px;
+}
+.section-four-content ul li {
+  display: block;
+  width: 200px;
+  height: 62px;
+  font-size: 22px;
+  line-height: 62px;
+  text-align: center;
+}
+.section-four-content ul li:first-child {
+  background-color: white;
+  color: black;
+}
+.section-four-content ul li:hover {
+  color: black;
+  background-color: white;
+}
+.section-four-title {
+  font-size: 30px;
+  text-align: center;
+}
+.section-four-title {
+  width: 1140px;
+  margin: 0 auto;
+}
+.section-four-content {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.section-four-content img {
+  width: 1140px;
+}
+.section-four-content-time p {
+  display: inline-block;
+  margin-left: 300px;
+  width: 250px;
+}
+.section-four-content-text {
+  font-size: 20px;
+}
+.section-four-content-text dl {
+  display: inline-block;
+  margin-left: 300px;
+  width: 250px;
+  vertical-align: text-top;
+}
+.section-four-content-text dl dd {
+  margin-top: 30px;
+}
+.section-five {
+  padding: 100px 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ED6461;
+  color: white;
+}
+.section-five p {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Microsoft YaHei";
+}
+#nav {
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  background-color: #42474B;
+  height: 42px;
+  line-height: 42px;
+  font-size: 21px;
+  font-family: "Microsoft YaHei";
+  color: white;
+}
+#nav .nav-all {
+  width: 1140px;
+  margin: 0 auto;
+}
+#nav .nav-all-left {
+  float: left;
+}
+#nav .nav-all-left a {
+  color: #ffffff;
+}
+#nav .nav-all-left:hover {
+  cursor: pointer;
+}
+#nav .nav-all-right {
+  float: right;
+}
+#nav .nav-all-right ul li {
+  display: inline-block;
+  margin-right: 80px;
+}
+#nav .nav-all-right ul li:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#nav .nav-all-right ul li a {
+  color: #ffffff;
+}
